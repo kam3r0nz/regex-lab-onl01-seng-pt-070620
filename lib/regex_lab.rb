@@ -17,7 +17,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.scan(/\b[A-Z](?!.\s)/)
-    false
+    true
   else
     false
   end
